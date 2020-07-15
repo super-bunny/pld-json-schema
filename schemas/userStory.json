@@ -3,6 +3,9 @@
   "description": "JSON Schema definition of PLD user story",
   "type": "object",
   "properties": {
+    "type": {
+      "const": "userStory"
+    },
     "user": {
       "description": "User that do the action of user story",
       "type": "string"
@@ -48,6 +51,7 @@
   },
   "additionalProperties": false,
   "required": [
+    "type",
     "user",
     "action",
     "definitionOfDone",
