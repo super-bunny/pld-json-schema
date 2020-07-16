@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "date": {
+      "description": "Release date of this version",
+      "type": "string"
+    },
+    "author": {
+      "description": "Authors of this version",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "sections": {
+      "description": "Which sections have been modified",
+      "type": "string",
+      "minLength": 1
+    },
+    "comment": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "version",
+    "date",
+    "author",
+    "sections",
+    "comment"
+  ]
+}
