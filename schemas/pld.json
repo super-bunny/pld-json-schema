@@ -20,6 +20,13 @@
       },
       "minItems": 1
     },
+    "versions": {
+      "type": "array",
+      "items": {
+        "$ref": "./version.json"
+      },
+      "minItems": 1
+    },
     "content": {
       "type": "array",
       "items": {
@@ -30,6 +37,7 @@
   "required": [
     "title",
     "authors",
+    "versions",
     "content"
   ]
 }
