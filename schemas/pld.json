@@ -17,7 +17,8 @@
       "type": "array",
       "items": {
         "type": "string"
-      }
+      },
+      "minItems": 1
     },
     "content": {
       "type": "array",
@@ -28,6 +29,7 @@
   },
   "required": [
     "title",
+    "authors",
     "content"
   ]
 }
