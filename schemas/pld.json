@@ -10,6 +10,15 @@
     "subTitle": {
       "type": "string"
     },
+    "description": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "content": {
       "type": "array",
       "items": {
