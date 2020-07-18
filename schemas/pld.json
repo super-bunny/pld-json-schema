@@ -5,16 +5,20 @@
   "properties": {
     "title": {
       "type": "string",
+      "description": "Main title on document title page",
       "minLength": 1
     },
     "subTitle": {
-      "type": "string"
+      "type": "string",
+      "description": "Sub title on document title page"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "description": "Description of document"
     },
     "authors": {
       "type": "array",
+      "description": "List of document authors",
       "items": {
         "type": "string"
       },
@@ -22,6 +26,7 @@
     },
     "versions": {
       "type": "array",
+      "description": "List of document versions",
       "items": {
         "$ref": "./version.json"
       },
@@ -29,6 +34,7 @@
     },
     "content": {
       "type": "array",
+      "description": "Content of the document",
       "items": {
         "$ref": "./section.json"
       }
