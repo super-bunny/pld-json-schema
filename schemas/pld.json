@@ -3,6 +3,9 @@
   "description": "JSON Schema definition of PLD (Project Log Document)",
   "type": "object",
   "properties": {
+    "config": {
+      "$ref": "./config.json"
+    },
     "title": {
       "type": "string",
       "description": "Main title on document title page",
