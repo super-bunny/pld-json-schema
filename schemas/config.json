@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Config of document used by external apps",
+  "type": "object",
+  "properties": {
+    "dateFormat": {
+      "description": "format used for all date in Document",
+      "type": "string"
+    }
+  },
+  "required": [
+    "dateFormat"
+  ]
+}
