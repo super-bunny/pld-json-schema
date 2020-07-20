@@ -6,6 +6,11 @@
     "type": {
       "const": "userStory"
     },
+    "name": {
+      "description": "Name of the user story",
+      "type": "string",
+      "minLength": 1
+    },
     "user": {
       "description": "User that do the action of user story",
       "type": "string"
@@ -52,6 +57,7 @@
   "additionalProperties": false,
   "required": [
     "type",
+    "name",
     "user",
     "action",
     "definitionOfDone",
