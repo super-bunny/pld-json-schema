@@ -44,7 +44,8 @@
         "WIP",
         "Done",
         "Abandoned"
-      ]
+      ],
+      "default": "To do"
     },
     "assignments": {
       "description": "List of person assigned to work on this user story",
