@@ -3,6 +3,9 @@
   "description": "Subset that groups many user story",
   "type": "object",
   "properties": {
+    "type": {
+      "const": "subset"
+    },
     "name": {
       "type": "string",
       "minLength": 1
@@ -16,6 +19,7 @@
     }
   },
   "required": [
+    "type",
     "name",
     "userStories"
   ]
