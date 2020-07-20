@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Project deliverable",
+  "type": "object",
+  "properties": {
+    "type": {
+      "const": "deliverable"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subsets": {
+      "type": "array",
+      "items": {
+        "$ref": "./deliverable/subset.json"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "type",
+    "name",
+    "subsets"
+  ]
+}

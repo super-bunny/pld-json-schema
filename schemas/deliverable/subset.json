@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Subset that groups many user story",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "userStories": {
+      "type": "array",
+      "items": {
+        "$ref": "../userStory.json"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "name",
+    "userStories"
+  ]
+}
