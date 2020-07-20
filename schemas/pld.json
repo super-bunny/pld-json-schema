@@ -35,6 +35,13 @@
       },
       "minItems": 1
     },
+    "deliverables": {
+      "type": "array",
+      "items": {
+        "$ref": "./deliverable.json"
+      },
+      "minItems": 1
+    },
     "content": {
       "type": "array",
       "description": "Content of the document",
@@ -47,6 +54,7 @@
     "title",
     "authors",
     "versions",
+    "deliverables",
     "content"
   ]
 }
