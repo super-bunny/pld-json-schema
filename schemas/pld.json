@@ -36,25 +36,18 @@
       "minItems": 1
     },
     "deliverables": {
+      "description": "List of project deliverable",
       "type": "array",
       "items": {
         "$ref": "./deliverable.json"
       },
       "minItems": 1
-    },
-    "content": {
-      "type": "array",
-      "description": "Content of the document",
-      "items": {
-        "$ref": "./section.json"
-      }
     }
   },
   "required": [
     "title",
     "authors",
     "versions",
-    "deliverables",
-    "content"
+    "deliverables"
   ]
 }
