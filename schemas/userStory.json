@@ -54,9 +54,19 @@
         "type": "string"
       }
     },
-    "comment": {
+    "comments": {
       "description": "Comment about the user story",
-      "type": "string"
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
     }
   },
   "additionalProperties": false,
