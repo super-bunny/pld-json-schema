@@ -3,6 +3,9 @@
   "description": "JSON Schema definition of PLD user story",
   "type": "object",
   "properties": {
+    "id": {
+      "type": "string"
+    },
     "type": {
       "const": "userStory"
     },
