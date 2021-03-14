@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "config": {
-      "$ref": "./config.json"
+      "$ref": "./pld/config.json"
     },
     "title": {
       "type": "string",
@@ -31,7 +31,7 @@
       "type": "array",
       "description": "List of document versions",
       "items": {
-        "$ref": "./version.json"
+        "$ref": "./pld/version.json"
       },
       "minItems": 1
     },
@@ -39,7 +39,7 @@
       "description": "List of project deliverable",
       "type": "array",
       "items": {
-        "$ref": "./deliverable.json"
+        "$ref": "./pld/deliverable.json"
       },
       "minItems": 1
     }

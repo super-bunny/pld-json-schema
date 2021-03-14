@@ -16,7 +16,7 @@
     "userStories": {
       "type": "array",
       "items": {
-        "$ref": "../userStory.json"
+        "$ref": "./subset/userStory.json"
       },
       "minItems": 1
     }
