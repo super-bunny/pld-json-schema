@@ -11,7 +11,7 @@
       "description": "Release date of this version",
       "type": "string"
     },
-    "author": {
+    "authors": {
       "description": "Authors of this version",
       "type": "array",
       "items": {
@@ -32,7 +32,7 @@
   "required": [
     "version",
     "date",
-    "author",
+    "authors",
     "sections",
     "comment"
   ]
