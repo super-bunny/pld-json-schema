@@ -39,6 +39,14 @@
       "type": "number",
       "multipleOf": 0.5
     },
+    "dueDate": {
+      "description": "User story due date",
+      "type": "string"
+    },
+    "endDate": {
+      "description": "Date when the User story was marked as Done",
+      "type": "string"
+    },
     "status": {
       "description": "User story work status",
       "type": "string",
